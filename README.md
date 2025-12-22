@@ -1,6 +1,6 @@
 # Training-ML-Models-to-Demystify-Fake-Job-Postings
 
-_A comparative study using BERT, ALBERT, and ELECTRA to identify fraudulent job postings_
+_A comparative study using BERT, ALBERT, ELECTRA (incoming), and RoBERTa (incoming) to identify fraudulent job postings_
 
 ## Problem Overview
 Fake job postings are increasingly common on online job platforms, leaeding to:
@@ -18,7 +18,7 @@ This is an exploratory and research-driven project, most likely not production-g
 ## Models Explored
 - **BERT** = Baseline transformer for contextual text understanding
 - **ALBERT** = Lightweight variant focusing on parameter efficiency
-- **ELECTYRA** = Discriminator-based pretraining, well-suited for classification tasks
+- **ELECTRA** = Discriminator-based pretraining, well-suited for classification tasks
 Each model was fine-tuned on the same dataset to allow fair comparison across Precision, Recall, F1 score, and class-level performance (fraud vs non-fraud).
 Special attention was given to **class imbalance**, which significantly impacts fraud detection tasks.
 
