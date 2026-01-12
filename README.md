@@ -18,8 +18,8 @@ This is an exploratory and research-driven project, most likely not production-g
 ## Models Explored
 - **BERT** = Baseline transformer for contextual text understanding
 - **ALBERT** = Lightweight variant focusing on parameter efficiency
-- **ELECTRA** = Discriminator-based pretraining, well-suited for classification tasks
-Each model was fine-tuned on the same dataset to allow fair comparison across Precision, Recall, F1 score, and class-level performance (fraud vs non-fraud).
+- **ELECTRA** = Discriminator-based pretraining, well-suited for classification tasks <br/>
+Each model was fine-tuned on the same dataset to allow fair comparison across Precision, Recall, F1 score, and class-level performance (fraud vs non-fraud).<br/>
 Special attention was given to **class imbalance**, which significantly impacts fraud detection tasks.
 
 ## Key Challenges
