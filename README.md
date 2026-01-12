@@ -26,7 +26,7 @@ Special attention was given to **class imbalance**, which significantly impacts 
 - **Severe class imbalance** (fraudulent posts are only about 5% of the dataset)
 - High variance in job description length and structure
 - Models achieving high accuracy but poor recall on the fraud class
-- Transformer sensitivity to dataset size and noise
+- Transformer sensitivity to dataset size and noise <br/>
 These challenges influence evaluation strategies that are still ongoing, which will affect interpretation of future results.
 
 Stay tuned!
